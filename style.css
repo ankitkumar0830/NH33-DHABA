@@ -1,0 +1,83 @@
+/* Body */
+body{
+margin:0;
+font-family:Arial, sans-serif;
+}
+
+/* Header */
+header{
+background:#8B0000;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* Hero Section */
+.hero{
+background:#ff9800;
+color:white;
+text-align:center;
+padding:70px 20px;
+}
+
+/* Order Button */
+.hero button{
+padding:10px 20px;
+border:none;
+background:white;
+color:black;
+font-weight:bold;
+cursor:pointer;
+border-radius:5px;
+}
+
+/* Button Hover Effect */
+.hero button:hover{
+background:black;
+color:white;
+}
+
+/* Menu Section */
+.menu{
+text-align:center;
+padding:40px;
+}
+
+/* Food Container Layout */
+.food-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+/* Food Cards */
+.food{
+background:#f4f4f4;
+padding:20px;
+margin:10px;
+width:200px;
+border-radius:10px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* About Section */
+.about{
+background:#eee;
+padding:40px;
+text-align:center;
+}
+
+/* Contact Section */
+.contact{
+padding:40px;
+text-align:center;
+}
+
+/* Footer */
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:15px;
+}
